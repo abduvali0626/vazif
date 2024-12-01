@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cantenor{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ong{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.ong a{
+    text-decoration: none;
+    color: black;
+}
+.ong a:hover{
+    color: #FF6838;
+}
+.ong button{
+    color: white;
+    background-color: #FF6838;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 18px;
+}
+.ona{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.chap1 a{
+    color:  #363853;
+    margin-left: 20px;
+}
+.chap1 button{
+    color: white;
+    background-color: #FF6838;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+}
+.chap1{
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.chap1 p,button,a{
+    margin-top: 60px;
+}
+.mj{
+    color: white;
+    background-color: #FF6838;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    width: 120px;
+    height: 50px;
+}
+.chap2{
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.chap2 p{
+    margin-top: 60px;
+}
+.l{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.kata{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.kata p,button{
+    display: flex;
+    align-items: center;
+}
+.p{
+    display: flex;
+    align-items: center;
+}
+.chap3 img,p{
+    margin-top: 40px;
+}
